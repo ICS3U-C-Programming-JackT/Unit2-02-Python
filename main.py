@@ -7,11 +7,11 @@
 import constants
 
 def main():
-    radius = float(input("Enter your radius here (cm): "));
+    radius = float(input("Enter your radius here (cm): "))
 
-    circumference = radius * constants.TAU;
+    circumference = radius * constants.TAU
 
-    print("The circumference of your circle is "+circumference+"cm!")
+    print("The circumference of your circle is " + circumference + "cm!")
 
 if __name__ == "__main__":
     main()
